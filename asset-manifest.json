@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/terrano-nrf-portal/static/css/main.846e0065.css",
+    "main.js": "/terrano-nrf-portal/static/js/main.8d650aa0.js",
+    "index.html": "/terrano-nrf-portal/index.html",
+    "main.846e0065.css.map": "/terrano-nrf-portal/static/css/main.846e0065.css.map",
+    "main.8d650aa0.js.map": "/terrano-nrf-portal/static/js/main.8d650aa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.846e0065.css",
+    "static/js/main.8d650aa0.js"
+  ]
+}
