@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import './App.scss';
 
 export const App = () => {
-
   const [history, setHistory] = useState(null);
   const [currentWaterTemp, setCurrentWaterTemp] = useState(null);
   const [currentAmbientTemp, setCurrentAmbientTemp] = useState(null);
@@ -67,7 +66,7 @@ export const App = () => {
     await fetch(url, {
       method: 'PATCH',
       headers: {
-        'Accept': 'application/json',
+        'Content-Type': 'application/json',
         'Authorization': 'Bearer e1b5f969259865cb4d08d819e7b12453320e616a'
       },
       body: JSON.stringify(patchData)
